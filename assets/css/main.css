@@ -2594,7 +2594,7 @@ input, select, textarea {
 		background-color: #1f181500;
 		background-attachment: scroll,								scroll;
 		background-image: url("../../images/bg.jpg"), url("images/overlay.png");
-		background-position: top left,							top left;
+		background-position: top center,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: 110%,								auto;
 		color: rgb(255, 255, 255);
@@ -3055,7 +3055,7 @@ input, select, textarea {
 
 			#header {
 				background-attachment: scroll;
-				background-position: right 0% top 30%, 80% 50%;
+				background-position: right 0% top 40%, 80% 50%;
 				background-size: cover,		auto;
 				left: auto;
 				padding: 6em 4em;
