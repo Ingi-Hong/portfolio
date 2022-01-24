@@ -3055,7 +3055,7 @@ input, select, textarea {
 
 			#header {
 				background-attachment: scroll;
-				background-position: top center, 80% 50%;
+				background-position: 30em center, 80% 50%;
 				background-size: cover,		auto;
 				left: auto;
 				padding: 6em 4em;
