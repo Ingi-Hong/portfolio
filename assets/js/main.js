@@ -73,7 +73,7 @@
 				breakpoints.on('<=medium', function() {
 
 					$window.off('scroll.strata_parallax');
-					$header.css('background-position', '');
+					$header.css('background-position', 'top center');
 
 				});
 
