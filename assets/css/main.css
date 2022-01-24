@@ -3063,7 +3063,7 @@ input, select, textarea {
 				text-align: center;
 				top: auto;
 				width: 100%;
-				height: 25em;
+				height: 25%;
 				display: block;
 			}
 
@@ -3081,7 +3081,7 @@ input, select, textarea {
 				background-attachment: scroll;
 				background-color: #1f1815;
 				background-image: url("../../images/bg.jpg"), url("images/overlay.png");
-				background-position: top center,						top left;
+				background-position: bottom center,						top left;
 				background-repeat: repeat,							no-repeat;
 				background-size: cover,							auto;
 				bottom: auto;
