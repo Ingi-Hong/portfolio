@@ -1,7 +1,7 @@
 # Site settings
-title: Biscuit Theme for Jekyll
-tag_text: Biscuit
-description: Biscuit is a single-page responsive Jekyll theme. This is the most simple and still-good-looking Jekyll theme that you can find.
+title: Ingi Hong
+tag_text: Ingi Hong
+description: Ingi's Portfolio Site
 # baseurl: "/blog" # the subpath of your site, e.g. /blog
 # url: "https://example.com" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -16,6 +16,6 @@ sass:
 
 domain: ingi-hong.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://my-site.github.io  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /portfolio/      # place folder name if the site is served in a subfolder
+baseurl: /portfolio      # place folder name if the site is served in a subfolder
 
 

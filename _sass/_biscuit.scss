@@ -13,11 +13,16 @@ html {
 body {
   margin: 2rem 0 5rem;
   color: #333;
+  background-color: #F5F2E8;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 1em;
 }
 
 @media (min-width: 30rem) {
   body {
     margin-top: 5rem;
+    font-family: 'Inter', sans-serif;
   }
 }
 
@@ -45,7 +50,7 @@ small {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   margin: 0 0 0.5rem -0.1rem /* align left edge */;
   line-height: 1;
@@ -55,13 +60,13 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 2.0rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 @media (min-width: 30rem) {
   h1 {
     font-size: 2.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 }
 
@@ -71,14 +76,14 @@ h1 a {
 
 h2 {
   margin-top: 2rem;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-bottom: 0.75rem;
 }
 
 @media (min-width: 30rem) {
   h2 {
     margin-top: 2.5rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
   }
 }
@@ -168,7 +173,7 @@ pre > code {
 }
 
 .container {
-  max-width: 30rem;
+  max-width: 50rem;
   margin: 0 auto;
   padding: 0 1rem;
 }
