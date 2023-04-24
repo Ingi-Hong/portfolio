@@ -4,7 +4,7 @@ layout: default
 <base target="_blank">
 # Hi 👋, I'm Ingi. 
 
-I'm a computer science student finishing up his final year at Boston University. Currently I'm working at [BU Spark!](https://www.bu.edu/spark/) to build full stack web applications using technologies like Next.js. 
+I'm a senior at Boston University studying computer science. Currently I'm working at [BU Spark!](https://www.bu.edu/spark/) to build full stack web applications using technologies like Next.js. 
 
 Recently I've been building out an web app to filter educational chess content @ [chesstube.app](https://www.chesstube.app). Check it out, and if you would like to contribute please feel free to contact me. 
 
