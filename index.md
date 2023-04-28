@@ -13,7 +13,7 @@ Recently I've been building out an web app to filter educational chess content @
 
 [Linkedin](https://linkedin.com/in/Ingihong/) <br />
 [GitHub](https://github.com/Ingi-Hong)<br />
-[Resume](./IngiHongResume2023.pdf)
+[Resume](/IngiHongResume2023.pdf)
 
 ## Projects
 [chesstube.app](https://www.chesstube.app) <br />
