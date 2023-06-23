@@ -1,0 +1,37 @@
+---
+title: ingi hong dot com! 
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/landing.css"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/coloredAvatarCircleCutout.png"/>
+    <script type="module" src="./scripts.js"></script>
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <div class="landing-page-container">
+      <div class="bio-container column">
+        <div class="bio">
+          {{ content | safe }}
+        </div>
+      </div>
+      <div class="avatar-container column">
+        <img class="red-avatar" src="/coloredAvatarCircleCutout.png"/>
+        <img id="blue" class="blue-avatar" src="/blue.png"/>
+      </div>
+      <div class="nav-container column">
+        <div class="nav-content">
+          <ul>
+            <li><a target="_" href="https://github.com/Ingi-Hong"><div class="item-one">Projects</div></a></li>
+            <li><a target="_" href="IngiHongResume2023.pdf"><div class="item-two">Resume</div></a></li>
+            <li><a target="_" href="https://www.linkedin.com/in/ingihong/"><div class="item-three">Contact</div></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
