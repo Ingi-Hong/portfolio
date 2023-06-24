@@ -6,11 +6,11 @@ const updateValues = ({ mouse, size }) => {
     // do something related to mouse position or velocity
 
     const elem = document.getElementById('blue');
-
+    
     let xRat = mouse.x/size.x;
     let yRat = mouse.y/size.y
 
-    elem.style.transform = "translate(" + -xRat* 10 + "px, " + -yRat*10 + "px)";
+    elem.style.transform = "translate(" + -xRat* 15 + "px, " + -yRat*15 + "px)";
   }
 };
 

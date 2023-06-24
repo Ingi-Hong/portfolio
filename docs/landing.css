@@ -81,7 +81,8 @@ body {
 
 .blue-avatar{
     z-index: 10;
-    transform: translate(-8px, -8px);
+    margin-right: 1%;
+    margin-bottom: 1%;
 }
 
 #blue{
