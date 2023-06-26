@@ -2,9 +2,10 @@ function handleClick(e, url) {
     e.preventDefault();
     document.body.style.overflow = "hidden";
     let transition = document.getElementById("transition");
-    transition.style.width = "100dvw";
-    transition.style.opacity = "1";
     transition.style.zIndex = "300";
+    transition.style.width = "100dvw";
+    transition.style.height = "130dvh";
+    transition.style.opacity = "1";
     delay(url);
   }
   

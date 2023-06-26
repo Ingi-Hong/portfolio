@@ -112,7 +112,7 @@ p {
   top: 0;
   left: 0;
   width: 0px;
-  height: 110dvh;
+  height: 100dvh;
   transition: 1s ease-in-out;
   background-color: #fff6f5;
 }
