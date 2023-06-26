@@ -88,6 +88,7 @@ h1 {
   color: black;
   opacity: 0%;
   animation: fadeIn 1s ease-out 0.2s 1 forwards;
+  border-bottom: 1px black solid;
 }
 
 h2 {
