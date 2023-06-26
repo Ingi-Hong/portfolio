@@ -1,0 +1,172 @@
+@font-face {
+  font-family: Josefin;
+  src: url("/public/JosefinSans-VariableFont_wght.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Oswald;
+  src: url("/public/Oswald-VariableFont_wght.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("/public/Inter-VariableFont_slnt,wght.ttf");
+  font-display: swap;
+}
+
+@keyframes slideFromLeft {
+  0% {
+    transform: translateX(-200%);
+    opacity: 0%;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 100%;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+body {
+  background-color: #f9cafc;
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  padding-left: 30%;
+  padding-right: 30%;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: end;
+  animation: fadeIn 0.7s linear 0.7s 1 forwards;
+  opacity: 0;
+}
+
+.header-item {
+  text-decoration: none;
+  color: black;
+  font-size: 1.8em;
+  font-family: Oswald;
+  font-weight: 500;
+  transition: 5ms;
+  cursor: pointer;
+}
+
+.header-item:hover,
+.back-btn {
+  filter: brightness(0) saturate(100%) invert(84%) sepia(0%) saturate(3179%)
+    hue-rotate(312deg) brightness(114%) contrast(106%);
+  text-decoration: none;
+  color: black;
+  font-size: 1.8em;
+  font-family: Oswald;
+  font-weight: 500;
+}
+
+.back-btn {
+  filter: brightness(0) saturate(100%) 
+  /* invert(35%) sepia(86%) saturate(1227%) */
+    /* hue-rotate(334deg) brightness(89%) contrast(97%); */
+}
+
+h1 {
+  font-family: Inter, sans-serif;
+  font-size: 2.2em;
+  color: black;
+  opacity: 0%;
+  animation: fadeIn 1s ease-out 0.2s 1 forwards;
+}
+
+h2 {
+  font-size: 1.3em;
+  font-family: Inter, sans-serif;
+  animation: fadeIn 1s linear 0.2s 1 forwards;
+  opacity: 0%;
+}
+
+p {
+  font-family: Inter, sans-serif;
+  font-size: 1.2em;
+  padding-bottom: 1em;
+  color: black;
+  opacity: 0%;
+  animation: fadeIn 1s ease-out 0.2s 1 forwards;
+}
+
+.transition {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0px;
+  height: 100dvh;
+  transition: 1s ease-in-out;
+  background-color: #fff6f5;
+}
+
+a{
+  text-decoration: underline;
+  color: black;
+
+}
+
+a:visited{
+  color: black;
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    padding-top: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .header-item {
+    font-size: 1.4em;
+  }
+
+  .header-item:hover {
+    font-size: 1.4em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.1em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  body {
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .header-item {
+    font-size: 1.4em;
+  }
+  .header-item:hover {
+    font-size: 1.4em;
+  }
+}
+
+

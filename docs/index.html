@@ -2,35 +2,40 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="./landing.css"/>
+    <link rel="stylesheet" href="/styles/landing.css"/>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="./coloredAvatarCircleCutout.png"/>
-    <script type="module" src="./scripts.js"></script>
+    <link rel="icon" type="image/png" href="/public/coloredAvatarCircleCutout.png"/>
+    <script type="module" src="/javascript/scripts.js"></script>
     <title>Ingi Hong dot com!</title>
   </head>
   <body>
     <div class="landing-page-container">
+      <div id="follow" class="follow">
+        <div id="dot" class="dot"></div>
+      </div>
       <div class="bio-container column">
         <div class="bio">
           <h1>Hi, my name is <span class='name'>Ingi.</span></h1>
-<p>I'm a full stack engineer from Los Angeles. Recently I've been building out a web app to filter educational chess content @ <a href="https://www.chesstube.app">chesstube.app</a>. Check it out, and if you would like to contribute please feel free to contact me.</p>
+<p>I'm a full stack engineer from Los Angeles. I love chess, backpacking, and the ocean.</p>
 
         </div>
       </div>
       <div class="avatar-container column">
-        <img class="red-avatar" src="./coloredAvatarCircleCutout.png"/>
-        <img id="blue" class="blue-avatar" src="./blue.png"/>
+        <img class="red-avatar" src="/public/coloredAvatarCircleCutout.png"/>
+        <img id="blue" class="blue-avatar" src="/public/blue.png"/>
       </div>
       <div class="nav-container column">
         <div class="nav-content">
           <ul>
-            <li><a target="_" href="https://github.com/Ingi-Hong"><div class="item-one">Projects</div></a></li>
-            <li><a target="_" href="IngiHongResume2023.pdf"><div class="item-two">Resume</div></a></li>
-            <li><a target="_" href="https://www.linkedin.com/in/ingihong/"><div class="item-three">Contact</div></a></li>
+            <li><a id="workBtn"><div id="work" class="item-one">My Work</div></a></li>
+            <li><a id="linkedin"><div id="linkedin" class="item-three">Linkedin</div></a></li>
+            <li><a id="github"><div id="github" class="item-four">Github</div></a></li>
+
           </ul>
         </div>
       </div>
     </div>
   </body>
 </html>
+<script src="/javascript/functions.js"></script>

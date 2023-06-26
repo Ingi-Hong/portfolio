@@ -1,0 +1,25 @@
+---
+title: ingihong.com slash work 
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="/styles/work.css"/>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="/public/coloredAvatarCircleCutout.png"/>
+        <title>{{ title }}</title>
+    </head>
+    <body>
+        <div class="header">
+            <a class="header-item" id="return">
+                <img class="back-btn" src="/public/corner-down-left.svg"/> Go Back</a>
+        </div>
+        <div class="transition" id="transition"></div>
+        <div class="content">
+            {{content | safe}}
+        </div>
+    </body>
+</html>
+<script type="module" src="/javascript/work-scripts.js"></script>
