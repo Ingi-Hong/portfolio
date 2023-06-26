@@ -40,7 +40,7 @@ body {
   background-color: #f9cafc;
   display: flex;
   justify-content: center;
-  padding-top: 5%;
+  padding-top: 0.5%;
   padding-left: 30%;
   padding-right: 30%;
   flex-direction: column;
@@ -129,7 +129,7 @@ a:visited{
 
 @media screen and (max-width: 900px) {
   body {
-    padding-top: 10%;
+    padding-top: 0.5%;
     padding-left: 15%;
     padding-right: 15%;
   }
@@ -157,7 +157,7 @@ a:visited{
   }
 
   body {
-    padding-top: 1%;
+    padding-top: 0.5%;
     padding-left: 5%;
     padding-right: 5%;
   }
