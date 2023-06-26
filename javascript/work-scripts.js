@@ -4,7 +4,8 @@ function handleClick(e, url) {
     let transition = document.getElementById("transition");
     transition.style.zIndex = "300";
     transition.style.width = "100dvw";
-    transition.style.height = "130dvh";
+    transition.style.top = "-10dvh";
+    transition.style.height = "140dvh";
     transition.style.opacity = "1";
     delay(url);
   }
